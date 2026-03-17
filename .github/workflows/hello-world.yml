@@ -3,6 +3,6 @@ on: [push]
 jobs:
   build:
       runs-on: ububtu-latest
-      step:
+      steps:
         - name: Say Hello
           run: echo "Hello, World!"
